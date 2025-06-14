@@ -1,0 +1,70 @@
+# === GLOBAL IGNORES ===
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.AppleDouble
+.LSOverride
+
+# === FRONTEND ===
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.tailwindcache/
+frontend/coverage/
+frontend/*.tgz
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*.local
+frontend/*.pem
+frontend/*.key
+frontend/*.crt
+frontend/*.p12
+
+# === BACKEND ===
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/coverage/
+backend/uploads/
+backend/*.tgz
+
+# Backend environment files
+backend/.env
+backend/.env.*.local
+backend/*.pem
+backend/*.key
+backend/*.crt
+backend/*.p12
+
+# PM2 logs (if using PM2)
+backend/.pm2/
+
+# Database / ORM generated files (optional)
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
